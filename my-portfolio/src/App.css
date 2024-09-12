@@ -1,0 +1,67 @@
+/* Light Mode Styles (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition for theme change */
+}
+
+/* Dark Mode Styles */
+.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Additional Styling for Dark Mode */
+.dark .text-gray-800 {
+  color: #e5e5e5;
+}
+
+.dark .bg-gray-100 {
+  background-color: #2d2d2d;
+}
+
+.dark .bg-gray-900 {
+  background-color: #121212;
+}
+
+/* Triangle container styling */
+.triangle-container {
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 400px solid black;
+  /* The actual triangle */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle-container h2 {
+  position: absolute;
+  top: -350px;
+  /* Positioning the heading above the triangle */
+}
+
+.triangle-container .custom-carousel {
+  position: absolute;
+  top: -280px;
+  /* Positioning carousel content inside the triangle */
+  width: 200px;
+}
+
+/* Other custom styles can be inherited */
+.neon-text {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0077ff, 0 0 40px #0077ff, 0 0 50px #0077ff;
+}
+
+.neon-button {
+  box-shadow: 0 0 10px #fff, 0 0 20px #00f, 0 0 30px #0077ff;
+}
+
+.neon-card {
+  box-shadow: 0 0 10px #0077ff, 0 0 20px #00f, 0 0 30px #00f;
+}
