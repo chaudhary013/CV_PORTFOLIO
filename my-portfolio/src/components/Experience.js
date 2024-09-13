@@ -11,12 +11,12 @@ const Experience = () => {
       description: 'Create a proposal for a RESTful Web Service → Build a basic RESTful Web Service → Implement the ability to upload data → Create unit tests.',
     },
     {
-      title: 'Advanced Software Engineering Job Simulation',
-      company: 'Walmart USA',
+      title: 'Software Engineering Lite',
+      company: 'JPMorgan Chase & Co.',
       duration: 'SEP 2024',
       internship: 'Virtual Internship',
-      certificate_link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Walmart%20USA/oX6f9BbCL9kJDJzfg_Walmart%20USA_yFgZpugc8Yz6PHGAb_1725342851571_completion_certificate.pdf",
-      description: 'Advanced Data Structures → Software Architecture → Relational Database Design → Data Munging',
+      certificate_link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/Wb4yEmHvZrC2qxiyX_JPMorgan%20Chase%20&%20Co._yFgZpugc8Yz6PHGAb_1726179229214_completion_certificate.pdf",
+      description: 'Completed a simulation for JPMorgan Chase & Co.s credit-card rewards system, where I developed a new class and wrote a test suite to restore system functionality',
     },
   ];
 
