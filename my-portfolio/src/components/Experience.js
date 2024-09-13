@@ -18,6 +18,22 @@ const Experience = () => {
       certificate_link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/Wb4yEmHvZrC2qxiyX_JPMorgan%20Chase%20&%20Co._yFgZpugc8Yz6PHGAb_1726179229214_completion_certificate.pdf",
       description: 'Completed a simulation for JPMorgan Chase & Co.s credit-card rewards system, where I developed a new class and wrote a test suite to restore system functionality',
     },
+     {
+      title: 'Front-End Software Engineering',
+      company: 'Skyscanner',
+      duration: 'SEP 2024',
+      internship: 'Virtual Internship',
+      certificate_link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Skyscanner/km4rw7dihDr3etqom_Skyscanner_yFgZpugc8Yz6PHGAb_1726262713244_completion_certificate.pdf",
+      description: 'In this recent job simulation as a front-end engineer at Skyscanner, I built a web application using React, developed a travel date-picking page with Skyscanner open-source Backpack React library, customized the application, and ran automated tests to ensure proper rendering',
+    },
+    {
+      title: 'Tech Explorer',
+      company: 'Commonwealth Bank',
+      duration: 'SEP 2024',
+      internship: 'Virtual Internship',
+      certificate_link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Commonwealth%20Bank/GYcpProEZQFCiSmT6_Commonwealth%20Bank_yFgZpugc8Yz6PHGAb_1726264310944_completion_certificate.pdf",
+      description: 'Coordinated the needs of stakeholders and users in requirement gathering, identified the correct groups for access to particular tools, and analyzed demographics to target for advertising a new banking app.',
+    },
   ];
 
   return (
