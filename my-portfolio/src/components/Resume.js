@@ -3,7 +3,7 @@ import { Button } from 'antd';
 
 const ResumeDownload = () => {
   const downloadResume = () => {
-    window.open('/amanCV-LPU new(2) (1).pdf', '_blank');
+    window.open('/newCVresume.pdf', '_blank');
   };
 
   return (
